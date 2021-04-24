@@ -1,0 +1,22 @@
+.main {
+  display: flex;
+  flex-direction: Column;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 2rem;
+  div {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+    position: relative;
+   #canvasDraw,#video{    
+    position: absolute;
+    margin: auto;
+   }
+   #canvasDraw{
+     z-index: 1;
+   }
+   
+  }
+}
